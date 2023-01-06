@@ -9,6 +9,7 @@
     height: 800px;
     background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
+
     padding-left: 900px;
     padding-top: 260px;
 }
@@ -28,7 +29,7 @@
     width: 510px;
     height: 80px;
     margin-bottom: 10px;
-   
+
 
 
 }
@@ -39,12 +40,51 @@
     margin-left: 380px;
     font-weight: 600;
     font-size: 18px;
-    background-color:#ee6909;
+    background-color: #ee6909;
     color: #FFFFFF;
-    border:none;
+    border: none;
     border-radius: 8px;
-   
 
 
 
+
+}
+
+/* failure styles */
+.failures {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.failures-details {
+    width: 400px;
+    height: 380px;
+}
+
+.failures-title {
+    width: 280px;
+    height: 90px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #151414;
+    margin-bottom: 10px;
+}
+.failures-description{
+    width:400px;
+    height: 100px;
+    color: #444343;
+}
+.icon-special{
+    width: 345px;
+    height: 160px;
+}
+.icon-gap{
+    margin-bottom: 10px;
+}
+
+i,
+.check {
+    color: green;
 }
