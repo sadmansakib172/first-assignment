@@ -63,13 +63,13 @@
     width: 400px;
     height: 380px;
     margin-left: 20px;
-  
+
 }
 
 .failures-title {
     width: 280px;
     height: 90px;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 35px;
     color: #151414;
     margin-bottom: 10px;
@@ -84,16 +84,57 @@
     font-size: 16px;
 
 }
-.icon-special  p{
-    color:black;
+
+.icon-special p {
+    color: black;
 }
 
-.icon-gap{
-   margin-bottom: 10px;
+.icon-gap {
+    margin-bottom: 10px;
 }
 
-i{
+i {
     color: green;
+}
+
+/* hobby section styles */
+.hobby {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image {
+    margin-left: 45px;
+}
+
+.image img {
+    width: 500px;
+    height: 350px;
+    border-radius: 50%;
+    padding: 100px 230px;
+}
+
+.cricket-info {
+    margin-right: 200px;
+    
+
+}
+
+.hobby-title {
+    font-weight: 800;
+    font-size: 35px;
+    padding: 10px;
+}
+.brown{
+    color:brown;
+}
+
+.hobby-description {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
 }
 
 /* my plan section */
@@ -106,8 +147,8 @@ i{
 
 .plan-title {
     margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 40px;
+    font-weight: 800;
+    font-size: 35px;
     color: #151414;
     padding: 15px;
 }
@@ -123,8 +164,9 @@ i{
     padding: 15px;
     font-weight: 800;
 }
-.plan-description{
-    color:black;
+
+.plan-description {
+    color: black;
 }
 
 /* linear gradient styles */
@@ -150,7 +192,7 @@ i{
 
 .linear-title {
     font-weight: 700;
-    font-size: 30px;
+    font-size: 28px;
     color: #FFFFFF;
     margin-top: 10px;
     ;
@@ -165,6 +207,8 @@ i{
     border-radius: 5px;
     border: none;
     margin-top: 10px;
+    width:120px;
+    height:48px;
 }
 
 /* footer section styles */
@@ -181,8 +225,8 @@ footer {
 }
 
 .future-title {
-    font-weight: 700;
-    font-size: 45px;
+    font-weight: 800;
+    font-size: 35px;
     color: #F8F8F8;
     margin-bottom: 15px;
 
@@ -195,7 +239,7 @@ footer {
     font-size: 16px;
 }
 
-.future,
+.email,
 p,
 a {
     color: #FFFFFF;
@@ -204,8 +248,9 @@ a {
     font-weight: 400;
     font-size: 16px;
 }
-img{
-    padding:10px;
+
+img {
+    padding: 10px;
 }
 
 .subscribe {
@@ -213,18 +258,19 @@ img{
 }
 
 .subscribe-title {
-    font-weight: 600;
-    font-size: 25px;
+    font-weight: 800;
+    font-size: 20px;
     color: #FFFFFF;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 input {
-    border:none;
-    height: 50px;
+    border: none;
+    height: 40px;
     width: 250px;
-    border:1px solid #FFFFFF;
+    border: 1px solid #FFFFFF;
     border-radius: 8px;
     background-color: black;
     margin-bottom: 10px;
+    padding:10px;
 }
