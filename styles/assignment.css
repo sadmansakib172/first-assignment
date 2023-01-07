@@ -62,6 +62,8 @@
 .failures-details {
     width: 400px;
     height: 380px;
+    margin-left: 20px;
+  
 }
 
 .failures-title {
@@ -74,22 +76,23 @@
 }
 
 .failures-description {
-    width: 400px;
-    height: 100px;
     color: #444343;
 }
 
 .icon-special {
-    width: 345px;
-    height: 160px;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.icon-special  p{
+    color:black;
 }
 
-.icon-gap {
-    margin-bottom: 10px;
+.icon-gap{
+   margin-bottom: 10px;
 }
 
-i,
-.check {
+i{
     color: green;
 }
 
@@ -119,6 +122,9 @@ i,
 .plan-heading {
     padding: 15px;
     font-weight: 800;
+}
+.plan-description{
+    color:black;
 }
 
 /* linear gradient styles */
