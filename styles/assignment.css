@@ -117,7 +117,7 @@ i {
 
 .cricket-info {
     margin-right: 200px;
-    
+
 
 }
 
@@ -126,8 +126,9 @@ i {
     font-size: 35px;
     padding: 10px;
 }
-.brown{
-    color:brown;
+
+.brown {
+    color: brown;
 }
 
 .hobby-description {
@@ -195,7 +196,6 @@ i {
     font-size: 28px;
     color: #FFFFFF;
     margin-top: 10px;
-    ;
 
 }
 
@@ -207,8 +207,8 @@ i {
     border-radius: 5px;
     border: none;
     margin-top: 10px;
-    width:120px;
-    height:48px;
+    width: 120px;
+    height: 48px;
 }
 
 /* footer section styles */
@@ -272,5 +272,5 @@ input {
     border-radius: 8px;
     background-color: black;
     margin-bottom: 10px;
-    padding:10px;
+    padding: 10px;
 }
